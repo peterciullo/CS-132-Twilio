@@ -18,3 +18,33 @@
 .login-field {
 	margin-top:6px;
 }
+
+.success {
+  background: #AAFFAA;
+}
+.error {
+  background: #FFAAAA;
+}
+
+#stream{
+  max-height: 600px;
+  overflow-y: auto;
+}
+.stream_post {
+  height: 50px;
+  padding: 5px;
+  width: 80%;
+  border-radius: 15px;
+  border: 3px solid black;
+  margin: 10px 0;
+}
+.stream_post_title {
+  font-size: bigger;
+  font-weight: bold;
+}
+.stream_post_timestamp{
+  color: #AAA;
+}
+.stream_error_title{
+  color: red;
+}
